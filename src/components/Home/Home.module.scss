@@ -1,0 +1,11 @@
+.HomeWrapper {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}

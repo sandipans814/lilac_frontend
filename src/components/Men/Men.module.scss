@@ -1,0 +1,28 @@
+.flexView {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.spinnerCenter{
+    position:absolute;
+    top:50vh;
+    left:50vw;
+}
+
+.divHeader {
+    position: relative;
+    display: grid;
+    place-content: center;
+    div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
